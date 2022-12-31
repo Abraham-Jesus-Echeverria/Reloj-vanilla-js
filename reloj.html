@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./ejercicio-reloj.css"> 
+    <title>Ejercicio reloj</title>
+</head>
+<body>   
+
+    <header class="header">  
+        <h1 id="title"> Abraham Echeverria XD</h1>
+    </header>
+
+    <div class="menu" id="menu_mobile">  
+
+        <h2 class="title_menu_movile">menu</h2>
+        <div class="container_Bclock"> 
+             <button class="button1" id="buttonH"> <i class="fa-solid fa-clock"></i> Reloj </button>     
+        </div> 
+
+        <div> 
+             <button id="buttonC"> <i class="fa-solid fa-stopwatch"></i> Cronometro </button>  
+        </div>
+
+        <div> 
+             <button><i class="fa-solid fa-hourglass-start"></i>Alarma </button> 
+        </div> 
+        <div> 
+            <button id="stop"><i class="fa-solid fa-stop"></i> stop </button> 
+       </div>    
+       
+       <p class="menu_instructions"> para pasar de una funcion a otra tendras que presionar stop antes de cambiar la funcion </p>
+    </div>
+
+    <button class="button_movile" id="button_menu"> <i class="fa-solid fa-bars"></i> </button>
+
+
+    <div class="reloj" id="clock">    
+        <div class="clock_container"> 
+           <div class="panel2" id="p1">  
+              <div class="panel" id="p2">  
+                 <div class="Hcontainer"> 
+                    <p id="hour">00:00:00</p>  
+
+                      <div class="seconds_container">  
+                        <p id="seconds"> </p> 
+                          <p id="AM/PM" class="AMPM"> </p>  
+                </div> 
+            </div>
+             <p id="date" class="fecha"></p>     
+                   <div id="controls">   
+                        <div> 
+                   <button class="buttonC" id="buttonS"><i class="fa-solid fa-play"></i></button>   
+                   <button class="buttonC" id="buttonP"><i class="fa-solid fa-pause"></i></button>    
+                   <button class="buttonC" id="buttonF"><i class="fa-solid fa-flag-checkered"></i></button> 
+                   <button class="buttonC" id="buttonO"><i class="fa-solid fa-stop"></i></button>   
+                        </div> 
+
+                    <div> 
+                   <button id="clean_flag"><i class="fa-solid fa-eraser"></i></button>    
+                    </div>
+                   </div>
+         </div>
+    </div> 
+</div>
+
+    <div class="flag_results" id="resultC"> <h3>Flag results</h3> </div> 
+    
+
+                   
+
+
+
+    <div class="cronometro">  
+    <p id="cronometro"> cronometro </p> 
+</div>
+</div>
+
+<script src="./ejercicio-reloj.js"></script>
+<script src="https://kit.fontawesome.com/0711f281fb.js" crossorigin="anonymous"></script>
+</body>
+</html>
